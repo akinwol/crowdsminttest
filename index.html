@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <title>CC</title>
+</head>
+
+<body>
+    <!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 mainheader header">CROWDSMINT SIMULATOR </h1>
+            <p class="lead header"> TBD
+                <br>
+
+            </p>
+        </div>
+    </div> -->
+
+    <div class="container" style="margin-top: 20px">
+        <div class="row">
+            <div class="col-6 ">
+                <div class="card">
+                    <div class="card-body">
+                        <h3> Sender</h3>
+                        <p>Deposit </p>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <button id="currency" class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">Currency</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item currency-code" data-code="USD" href="#">USD</a>
+                                    <a class="dropdown-item currency-code" data-code="CAD" href="#">CAD</a>
+                                    <a class="dropdown-item currency-code" data-code="NGN" href="#">NGN</a>
+                                </div>
+                            </div>
+                            <input type="number" class="form-control deposit-amount" aria-label="Text input with dropdown button">
+                            <button type="button" class="btn btn-primary deposit-button">Deposit</button>
+                        </div>
+                        <hr>
+                        <p>
+                            <strong> Current Fiat Balance:</strong>
+                            <span class="selected-currency"></span>
+                            <span class="deposit-amount"></span>
+                        </p>
+                        <hr>
+                        <p>
+                                <strong> Current CC Balance:</strong>
+                                <span class="crowd-coin-symbol"></span>
+                                <span class="cc-amount"></span>
+                            </p>
+
+                        <hr>
+
+                        <div class="input-group">
+                    
+                            <input type="number" class="form-control deposit-amount" aria-label="Text input with dropdown button">
+                            <button type="button" class="btn btn-primary deposit-button" id="transfer-amount">Transfer</button>
+                        </div>
+                        
+                        <hr>
+
+                        <div class="input-group">
+                    
+                                <input type="number" class="form-control deposit-amount" aria-label="Text input with dropdown button">
+                                <button type="button" class="btn btn-primary deposit-button"> Exchange </button>
+                            </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-6 ">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h3>Reciever </h3>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px"></div>
+        <div class="col-12"></div>
+        <div class="card">
+            <div class="card-body">
+                <h2>Admin Panel</h2>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- Javascript link -->
+    <script type="text/javascript" src="assets/javascript/app.js"> </script>
+</body>
+
+
+</html>

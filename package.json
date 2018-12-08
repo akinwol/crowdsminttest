@@ -1,0 +1,24 @@
+{
+  "name": "crowdsmint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinwol/crowdsmint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akinwol/crowdsmint/issues"
+  },
+  "homepage": "https://github.com/akinwol/crowdsmint#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "gdax": "^0.8.0"
+  }
+}
